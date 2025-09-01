@@ -57,4 +57,15 @@ SRAM的輸入跟輸出要連著reg，不然會時序違反
 
 MMT period 6.8   MMT_v2 period_7.3
 
+## lab06
+elliptic curve group operation是橢圓曲線密碼學中的核心運算
+利用verilog完成此運算
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab6/lab6.PNG)
+
+用組合邏輯來實現輾轉相除法，並將作為軟IP核
+
+ECGO就照講義寫的算法，不會難
+
+
 
