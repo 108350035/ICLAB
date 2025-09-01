@@ -5,6 +5,7 @@
 ## lab01
 給五組輸入，每組為一個MOS的寬度(W)、VGS、VDS。
 並且根據另一個輸入(mode)，算出輸出的電流/電壓的最大/最小值。
+
 ![image](https://github.com/108350035/ICLAB/blob/main/lab1/lab1.PNG)
 
 直接硬幹，以組合電路為主。
