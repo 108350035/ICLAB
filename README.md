@@ -33,7 +33,7 @@
 
 此外PATTERN也不難寫，符合PDF上所說的規則即可
 
-## lab03
+## lab04
 用verilog完成ANN(類神經網路)
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab4/lab4.PNG)
