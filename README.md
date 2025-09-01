@@ -33,3 +33,14 @@
 
 此外PATTERN也不難寫，符合PDF上所說的規則即可
 
+## lab03
+用verilog完成ANN(類神經網路)
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab4/lab4.PNG)
+
+小心使用IP核，一個cycle執行一次就好，切勿做超過兩個以上的操作，不然會時序違反
+
+NN.v 執行時間:8cycle 、 NN_ver2.v 執行時間:9cycle
+
+PATTERN嘗試用python產出，用過都說讚
+
