@@ -22,3 +22,12 @@
 
 有寫兩種版本，KT_v1以及KT_v2，差異在於v2會預測8個方向的可行性以及紀錄試過的方向，來減少執行cycle
 
+## lab03
+用verilog完成跑酷遊戲
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab3/lab3.PNG)
+
+直接硬幹，盡量人物靠近中間，減少走到死路造成的failed。
+
+也是有寫兩個版本，但好像都差不多，只是微調^^
+
