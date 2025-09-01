@@ -44,3 +44,17 @@ NN.v 執行時間:8cycle 、 NN_ver2.v 執行時間:9cycle
 
 PATTERN嘗試用python產出，用過都說讚
 
+## lab05
+利用SRAM，完成三個矩陣相乘並找到trace
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab5/lab5.PNG)
+
+SRAM的輸入跟輸出要連著reg，不然會時序違反
+
+計算過程很繁雜但不難，只是容易出錯，像是搞混colum或row或矩陣相乘的順序
+
+太著急，反而更花時間，欲速則不達
+
+MMT period 6.8   MMT_v2 period_7.3
+
+
