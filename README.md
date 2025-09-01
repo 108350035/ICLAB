@@ -8,4 +8,4 @@
 ![image](https://github.com/108350035/ICLAB/blob/main/lab1/lab1.PNG)
 
 直接硬幹，以組合電路為主。
-但注意在排序的過程中，不要當成"<font size="軟體">XX</font>"在寫，信號不能被多次賦值
+但注意在排序的過程中，不要當成"<font size="">軟體</font>"在寫，信號不能被多次賦值
