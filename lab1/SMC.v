@@ -63,32 +63,10 @@ endmodule
 module bubble_sort(temp0,temp1,temp2,temp3,temp4,temp5,temp0_S,temp1_S,temp2_S,temp3_S,temp4_S,temp5_S);
 input [9:0] temp0,temp1,temp2,temp3,temp4,temp5;
 output  [9:0] temp0_S,temp1_S,temp2_S,temp3_S,temp4_S,temp5_S;
-//wire [9:0] R0,R1,R2,R3,R4,R5,R6,R7,R8,A0,A1,A2,A3,A4,A5,A6,B0,B1,B2,B3,B4,C0,C1,C2,C3;
+wire [9:0] R0,R1,R2,R3,R4,R5,R6,R7,R8,A0,A1,A2,A3,A4,A5,A6,B0,B1,B2,B3,B4,C0,C1,C2,C3;
 integer i,j;
 reg [9:0] sort [5:0];
 reg [9:0] temp;
-
-always@(*)
-    begin
-        sort[0]=temp0;
-        sort[1]=temp1;
-        sort[2]=temp2;
-        sort[3]=temp3;
-        sort[4]=temp4;
-        sort[5]=temp5;
-
-//===================sort=============================
-	for(i=0;i<6;i=i+1) begin:loop1
-		for(j=0;j<5-i;j=j+1) begin:loop2
-			if(sort[j]<sort[j+1]) begin
-				temp = sort[j];
-				sort[j]=sort[j+1];
-				sort[j+1]=temp;
-			end
-		end
-	end
-
-end
 
 assign temp0_S = sort[0];
 assign temp1_S = sort[1];
@@ -97,8 +75,7 @@ assign temp3_S = sort[3];
 assign temp4_S = sort[4];
 assign temp5_S = sort[5];
 
-//第二種寫法，但面積較大
-/*assign R0 = (temp1 > temp0)?temp0:temp1;//R0 
+assign R0 = (temp1 > temp0)?temp0:temp1;//R0 
 assign R1 = (temp1 > temp0)?temp1:temp0;//R0
 assign R2 = (temp2 > R1)?R1:temp2;//R0 R2
 assign R3 = (temp2 > R1)?temp2:R1;//R0 R2
@@ -131,7 +108,7 @@ assign C2 = (C1 > B4)?B4:C1;//C0 C2
 assign temp3_S = (C1 > B4)?C1:B4;//C0 C2 C3
 
 assign temp5_S = (C0 > C2)?C2:C0;//D0
-assign temp4_S = (C0 > C2)?C0:C2;//D0*/
+assign temp4_S = (C0 > C2)?C0:C2;//D0
 
 
 endmodule
@@ -183,3 +160,4 @@ endmodule
 // 	endcase
 // end
 // --------------------------------------------------
+
