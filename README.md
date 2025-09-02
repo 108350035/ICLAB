@@ -85,7 +85,16 @@ ECGO就照講義寫的算法，不會難
 每個數據處理區塊，各獨立為一個clk，處理數據完的區塊就關閉clk，達到省電
 
 要很謹慎，稍微寫錯幾行，即可功能正確，也會很大概率出現時序違反
+
 剩下的就稍微了解primetime怎麼操作即可
+
+## lab09
+用system-verilog模擬購物平台
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab9/lab9.PNG)
+
+不懂sv語法跟物件導向就看CSDN
+購物平台的spec很繁瑣，花了很多時間理解
 
 
 
