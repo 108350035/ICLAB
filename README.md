@@ -98,8 +98,8 @@ ECGO就照講義寫的算法，不會難
 購物平台的spec很繁瑣，花了很多時間理解
 
 ## lab10
-寫CHECKER.sv 驗證TA的design跟pattern之正確性
-用TA的CHECKER.sv檢驗自己的lab09之PATTERN是否符合spec
+寫CHECKER.sv 驗證TA的PATTERN.sv正確性
+用TA的CHECKER.sv檢驗自己的lab09 PATTERN之覆蓋率是否符合spec
 
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab10/lab10.PNG)
