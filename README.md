@@ -82,8 +82,8 @@ ECGO就照講義寫的算法，不會難
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab8/lab8.PNG)
 
-每個數據處理區塊，各獨立為一個clk，處理數據完的區塊就關閉clk，達到省電作用
-這些步驟都要很謹慎，稍微寫錯幾行，就算function對，也會timing violation
+每個數據處理區塊，各獨立為一個clk，處理數據完的區塊就關閉clk，達到省電
+要很謹慎，稍微寫錯幾行，即可功能正確，也會很大概率出現時序違反
 
 剩下的就稍微了解primetime怎麼操作即可
 
