@@ -75,7 +75,18 @@ ECGO就照講義寫的算法，不會難
 ![image](https://github.com/108350035/ICLAB/blob/main/lab7/lab7.PNG)
 
 分別處理三個module，然後clk不要搞混。最後將三個module連在一起，clk之間接同步器即可
-
 不會特別難，按照講義上一步一步來就過了
+
+## lab08
+利用clock gating的技術，完成串行處理
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab8/lab8.PNG)
+
+每個數據處理區塊，各獨立為一個clk，處理數據完的區塊就關閉clk，達到省電作用
+這些步驟都要很謹慎，稍微寫錯幾行，就算function對，也會timing violation
+
+剩下的就稍微了解primetime怎麼操作即可
+
+
 
 
