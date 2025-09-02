@@ -102,12 +102,21 @@ ECGO就照講義寫的算法，不會難
 
 用TA的CHECKER.sv檢驗自己的lab09 PATTERN之覆蓋率是否符合spec
 
-
 ![image](https://github.com/108350035/ICLAB/blob/main/lab10/lab10.PNG)
 
 看講義學語法，再不懂則看CSDN，CHECKER就能輕鬆寫出來
 
 為了盡可能以最少的pattern數完成spec，pattern的部分花了較多時間
 
+## lab11
+用innovus完成APR
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab11/lab11.PNG)
+
+照講義的步驟做即可
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab11/APR1.PNG)
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab11/APR2.PNG)
 
 
