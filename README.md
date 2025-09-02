@@ -68,12 +68,11 @@ elliptic curve group operation是橢圓曲線密碼學中的核心運算
 
 ECGO就照講義寫的算法，不會難
 
-## lab06
-
+## lab07
 循環冗餘校驗 (Cyclic Redundancy Check)，一種用於偵測資料傳輸錯誤的演算法
 用verilog的方式完成該演算法
 
-![image](https://github.com/108350035/ICLAB/blob/main/lab7/lab7.PNG
+![image](https://github.com/108350035/ICLAB/blob/main/lab7/lab7.PNG)
 
 分別處理三個module，然後clk不要搞混。最後將三個module連在一起，clk之間接同步器即可
 
