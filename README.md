@@ -130,6 +130,16 @@ ECGO就照講義寫的算法，不會難
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab12/APR2.PNG)
 
+## bonus
+學習操作JasperGold
+
+![image](https://github.com/108350035/ICLAB/blob/main/bonus/bonus.PNG)
+
+bridge.sv 有4個bug，將他們找出
+
+其餘就照講義的作即可
+
+
 
 
 
