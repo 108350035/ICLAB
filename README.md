@@ -119,4 +119,18 @@ ECGO就照講義寫的算法，不會難
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab11/APR2.PNG)
 
+## lab12
+完成lab02的APR
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab12/lab12.PNG)
+
+跟Lab11一樣，看步驟做
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab12/APR.PNG)
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab12/APR2.PNG)
+
+
+
+
 
