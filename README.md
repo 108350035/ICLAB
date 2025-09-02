@@ -94,8 +94,18 @@ ECGO就照講義寫的算法，不會難
 ![image](https://github.com/108350035/ICLAB/blob/main/lab9/lab9.PNG)
 
 不懂sv語法跟物件導向就看CSDN
+
 購物平台的spec很繁瑣，花了很多時間理解
 
+## lab10
+寫CHECKER.sv 驗證TA的design跟pattern之正確性
+用TA的CHECKER.sv檢驗自己的PATTERN是否符合spec
+
+![image](https://github.com/108350035/ICLAB/blob/main/lab10/lab10.PNG)
+
+看講義學語法，再不懂則看CSDN，CHECKER就能輕鬆寫出來
+
+為了盡可能以最少的pattern數完成spec，pattern的部分花了較多時間
 
 
 
