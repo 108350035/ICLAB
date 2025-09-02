@@ -99,6 +99,7 @@ ECGO就照講義寫的算法，不會難
 
 ## lab10
 寫CHECKER.sv 驗證TA的PATTERN.sv正確性
+
 用TA的CHECKER.sv檢驗自己的lab09 PATTERN之覆蓋率是否符合spec
 
 
