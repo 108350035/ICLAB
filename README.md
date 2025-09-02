@@ -99,7 +99,8 @@ ECGO就照講義寫的算法，不會難
 
 ## lab10
 寫CHECKER.sv 驗證TA的design跟pattern之正確性
-用TA的CHECKER.sv檢驗自己的PATTERN是否符合spec
+用TA的CHECKER.sv檢驗自己的lab09之PATTERN是否符合spec
+
 
 ![image](https://github.com/108350035/ICLAB/blob/main/lab10/lab10.PNG)
 
